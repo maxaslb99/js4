@@ -89,7 +89,7 @@ generator = function (start_x, start_y, direction = 1, x_step = 3, y_step = 150)
                   "display": "none"});
       $( ".cards-collector" ).append(new_card);
       new_card.delay(delay).fadeIn(0)
-      delay = delay + 100;}
+      delay = delay + 50;}
     else {
       c = c + y_step;
       offset = x+direction*Math.sqrt(Math.abs((y*b-c)/a));
